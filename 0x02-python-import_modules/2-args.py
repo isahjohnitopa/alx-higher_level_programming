@@ -8,7 +8,7 @@ if __name__ == '__main__':
     if count < 1:
         print("{} argument.".format(count))
     elif count == 1:
-        print("{} argument.".format(count))
+        print("{} argument:".format(count))
     else:
         print("{} arguments:".format(count))
         for ele in range(count):
