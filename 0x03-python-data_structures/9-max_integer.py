@@ -1,7 +1,7 @@
-#!/usr/bin/pythn3
+#!/usr/bin/python3
 
 def max_integer(my_list=[]):
-    if not my_list:
+    if not my_listi
         return None
 
     max_val = my_list[0]
