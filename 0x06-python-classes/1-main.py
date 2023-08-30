@@ -11,6 +11,6 @@ except Exception as e:
     print(e)
 
 try:
-    print(my_sqaure.__size)
+    print(my_square.__size)
 except Exception as e:
     print(e)
