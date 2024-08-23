@@ -1,3 +1,3 @@
 #!/bin/bash
-# Script that makes a request to causes an specific response
-curl -sL 0.0.0.0:5000/catch_me_3 -X PUT -H "Origin:HolbertonSchool"
+# Script that takes an URL and shows the Allowed OPTIONS
+curl -sI -X OPTIONS "$1" | grep "Allow:" | cut -d " " -f 2-
